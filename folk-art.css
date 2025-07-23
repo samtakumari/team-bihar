@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ebe3c4;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 80px;
+  }
+  
+  
+  .nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(4, 117, 117);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f8f7f7;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fcfafb;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    color: #007BFF;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #f8f6f7;
+  }
+  
+  
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/736x/8e/ea/dd/8eeadd3f06f9f54961170b7fc6a49985.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .hero-content h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    background-color: rgba(77, 25, 25, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+  }
+  
+  
+  .section, .container {
+    background-color: #fff;
+    padding: 25px;
+    margin: 30px;
+    max-width: 80
+    0px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.07);
+    transition: 0.3s ease;
+    gap:20px
+  }
+  
+  .section:hover, .container:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .section h2 {
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    color: #0e2c4b;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  form label {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea,
+  form select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: 0.3s ease;
+  }
+  
+  form input:focus,
+  form textarea:focus,
+  form select:focus {
+    border-color: #0066cc;
+    outline: none;
+    background-color: #ffffff;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  
+  button, .Start-Quiz-btn {
+    background: linear-gradient(to right, #0066cc, #004d99);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  button:hover, .Start-Quiz-btn:hover {
+    background: linear-gradient(to right, #004d99, #002244);
+    transform: scale(1.05);
+  }
+  
+  
+  .testimonial {
+    background-color: #f1f9ff;
+    padding: 10px 15px;
+    border-left: 5px solid #0066cc;
+    margin-top: 10px;
+    border-radius: 6px;
+  }
+  
+  
+  .video-container {
+    margin: 50px;
+    text-align: center;
+  }
+  
+  .video-container iframe,
+  .center-iframe iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+  }
+  iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  footer {
+    background-color: #2c2e39;
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #015e59;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  
+    nav.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .hero-content h1 {
+      font-size: 2rem;
+      padding: 5px;
+    }
+  
+    .section,
+    .container {
+      padding: 15px;
+    }
+  }
+  
+  .learn-more-btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #cc5200;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  #bihar-Traditional .image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 10px auto;
+  }
+  
+  
+  /* .community-heading {
+    color: #ffffff; /* White text */
+    /* font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds glow effect for extra clarity */
+    /* margin: 0 20px;  */
+  

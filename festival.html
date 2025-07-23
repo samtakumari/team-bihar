@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="festival.css" />
+  <title>Diwali Puja</title>
+</head>
+<body>
+  <header>
+ <div class="nav-container">
+      <div class="logo">Bihar Culture</div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+      <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="festival.html">Festivals</a>
+        <a href="food.html">Food</a>
+        <a href="folk art.html">Folk Art</a>
+        <a href="language.html">Language</a>
+        <a href="map.html">Map</a>
+        <a href="community.html">Community</a>
+      </nav>
+    </div>
+    </header>
+  <!-- <h1>Bihar ke Tyohar</h1> -->
+
+  <div id="cards-section">
+    <div class="festival-card">
+      <h2> Dipawali </h2>
+      <img src="https://i.natgeofe.com/n/7e33fdf8-c549-4cc6-99c2-a66bf6cad079/GettyImages-1778646120_16x9.jpg?w=1200" alt="Diwali Puja" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('diwali-article-1')">More Read</a>
+    </div>
+
+    <div class="festival-card">
+      <h2>Chhath Puja</h2>
+      <img src="https://www.jagranimages.com/images/newimg/30102022/30_10_2022-chhat_puja_muz1_23171016_21574851.webp" alt="Chhath Puja" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('chhath-article-2')">More Read</a>
+    </div>
+
+    <div class="festival-card">
+      <h2>Raksha Bandhan</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqeut6p9J0tmFc2rzfj-D1maP3d577Oo5keW4QhkzIRdNW9EVUajYqc_5pizLesb7qVU4&usqp=CAU" alt="Raksha Bandhan" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('raksha-bandhan-3')">More Read</a>
+    </div>
+
+    <div class="festival-card">
+      <h2>Navratri</h2>
+      <img src="https://shreesarvasiddhi.com/wp-content/uploads/2021/07/Durga-Puja-800x800-1.jpg" alt="Durga Puja" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Durga-Puja-4')">More Read</a>
+    </div>
+
+    <div class="festival-card">
+      <h2>Ram Navami</h2>
+      <img src="https://akm-img-a-in.tosshub.com/aajtak/images/story/202104/ram_7-sixteen_nine_0.jpg?size=948:533" alt="Ram Navami" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Ram-Navami-5')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2> Holi</h2>
+      <img src="https://im.idiva.com/content/2020/Mar/holi-celebrations_5e63a2fef2bb9.jpg?w=450&h=338&cc=1" alt="Holi" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Holi-6')">More Read</a>
+    </div>
+     <div class="festival-card">
+      <h2>Basant Panchami</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmkreRX1VWz4UJgwZT85SSJUF272FLvCGTQg&s" alt=" Basant Panchami" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle(' Basant Panchami-7')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Makar Sankranti</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5KkCQo9pZWmgFPD-NsH1RZpes5AFPqiTPPg&s" alt=" Markar-Sankranti" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Markar-Sankranti-8')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Janmashtami</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXalIMVwm5sBipByv3Dpbt6eLsGYFaZzDfsA&s" alt=" Janmashtami" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Janmashtami-9')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Hanuman Jayanti</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkhU8Z6Dy2S05itVrdc5ouXqnnmTlHGHobug&s" alt=" Hanuman-Jayanti" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Hanuman-Jayanti-10')">More Read</a>
+    </div>
+     <div class="festival-card">
+      <h2>Govardhan Puja</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUpEhTgy37mpZXrNYO3sI87PG3Z6qtUCVrmQ&s" alt=" Govardhan Puja" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Govardhan-11')">More Read</a>
+    </div>
+     <div class="festival-card">
+      <h2>Sonepur Mela</h2>
+      <img src="https://www.prabhatkhabar.com/wp-content/uploads/2024/09/sonpur-mela-2024-news.jpg" alt="Sonepur-Mela" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Sonepur-Mela-12')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Eid-ul-Fitr</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFcymfgwnvTZFWOgcx6w341-4T03GvDWCwQ&s" alt="Eid-ul-Fitr" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Eid-ul-Fitr-13')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Muharram</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlGHTqfBLWW4LM8IalgNsmP7IIfTjkgiKxA&s" alt="Muharram" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Muharram-14')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Jitiya</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUYtWDiC-xSe4mYbuA0pXt55OSFLnnN_H8w&s" alt="Jitiya" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Jitiya-15')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Buddha Purnima </h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLllQc6TyqT5qLFUYamTgB8aMnkimUR0q3Kw&s" alt="Buddha Purnima " class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Buddha-Purnima-16')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Sama-Chakeva  </h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQly0Jw5iEQSm7GUOuPodKnauPUJnMVkW3nyg&s" alt="Sama-Chakeva" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Sama-Chakeva -17')">More Read</a>
+    </div>
+     <div class="festival-card">
+      <h2>Hartalika Teej </h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKAh936hjFlRdlhu4AXWRWl8u8qecHrg6oQQ&s" alt="Hartalika Teej" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Hartalika-Teej-18')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Nag Panchami</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfBOpTmPcoBHQRlcmZgPW_J4WjIsZ0V45ktA&s" alt="Nag-Panchami " class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Nag-Panchami-19')">More Read</a>
+    </div>
+ <div class="festival-card">
+      <h2>Vat Savitri</h2>
+      <img src="https://media.gettyimages.com/id/1256207010/photo/devotees-offer-prayers-under-a-tree-on-the-occasion-of-vat-savitri-puja-at-a-shiv-mandir-on.jpg?s=612x612&w=gi&k=20&c=jHVWpVROjQ2v4cSIHjDwry0B7qj0FcJZ7QVu8ccjFwE=" alt="Vat Savitri" class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Vat-Savitri Puja-20')">More Read</a>
+    </div>
+    <div class="festival-card">
+      <h2>Sohrai and Karma </h2>
+      <img src="https://sablog.in/wp-content/uploads/2022/10/santhal-hull-dance.jpg" alt="Sohrai and Karma " class="festival-image" />
+      <a class="more-read-link" onclick="showArticle('Sohrai and Karma -21')">More Read</a>
+    </div>
+  </div>
+
+  <!-- Articles -->
+  <div id="diwali-article-1" class="article-section">
+   <h2>Diwali Puja</h2>
+    <img src="https://i.natgeofe.com/n/7e33fdf8-c549-4cc6-99c2-a66bf6cad079/GettyImages-1778646120_16x9.jpg?w=1200" alt="Diwali Puja" />
+     <p>Diwali, also known as Deepavali, is one of the biggest and most colorful festivals of India.
+This festival is also called the festival of lights because on this day houses and streets are decorated with lamps, candles, and electric lights.
+During the Diwali worship, the most important prayers are offered to Lord Ram, Goddess Lakshmi, and Lord Ganesha.
+Diwali is also celebrated with great enthusiasm in Bihar.
+
+</p>
+     <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+
+  <div id="chhath-article-2" class="article-section">
+    <h2>Chhath Puja</h2>
+    <img src="https://www.jagranimages.com/images/newimg/30102022/30_10_2022-chhat_puja_muz1_23171016_21574851.webp" alt="Chhath Puja" />
+   <p>Chhath Puja is a very sacred and important festival of Bihar.
+
+In this festival, Surya Dev (the Sun God) and Chhathi Maiya are worshipped.
+
+The people of Bihar celebrate it with great devotion and faith.</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+
+  <div id="raksha-bandhan-3" class="article-section">
+    <h2>Raksha Bandhan</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQgvscxCCI8nFs2wi8SOQm5b4IU4xBG85vWQ&s" alt="Raksha Bandhan" />
+  <p>Raksha Bandhan is a Hindu festival that symbolizes the love and bond of protection between brothers and sisters.
+On this day, sisters tie a rakhi (a sacred thread) on their brother’s wrist, and the brother promises to protect her.
+This festival is celebrated with great enthusiasm and love in Bihar.</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Durga-Puja-4" class="article-section">
+    <h2>Durga Puja</h2>
+    <img src="https://shreesarvasiddhi.com/wp-content/uploads/2021/07/Durga-Puja-800x800-1.jpg" alt="Durga Puja" />
+    <p>Durga Puja is one of the major and grand festivals of India, especially celebrated with great enthusiasm in West Bengal, Bihar, Jharkhand, Odisha, and Assam.
+       This festival symbolizes the power of Goddess Durga and the victory of good over evil. 
+       It is observed during the Navratri of the Ashwin month, usually falling in September or October. 
+       According to belief, during this time, Goddess Durga killed the demon Mahishasura and restored peace and righteousness on Earth. 
+       The festival lasts for ten days, with the last five days being the most prominent. Beautiful idols of Durga are installed in decorated pandals, and people worship her with devotion through rituals, aarti, dances, songs, and cultural programs.
+        On the tenth day, the idols are immersed in water, marking the occasion of “Vijayadashami.
+        ” Durga Puja is not just a religious event but also a cultural and social celebration that conveys a message of unity, strength, and devotion.
+</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Ram-Navami-5" class="article-section">
+    <h2>Ram Navami</h2>
+    <img src="https://akm-img-a-in.tosshub.com/aajtak/images/story/202104/ram_7-sixteen_nine_0.jpg?size=948:533" alt="Ram Navami" />
+    <p>Ram Navami Bharat ka ek pavitra Hindu tyohar hai jo Bhagwan Shri Ram ke janm ke upalakhya mein manaya jata hai...</p>
+    <p>Yeh tyohar har saal Chaitra maas ke Shukla Paksha ke Navami tithi ko manaya jata hai...</p>
+    <p>Bihar mein log is din mandir jaakar bhagwan Ram ka kirtan aur bhajan karte hain...</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Holi-6" class="article-section">
+    <h2>Holi </h2>
+    <img src="https://im.idiva.com/content/2020/Mar/holi-celebrations_5e63a2fef2bb9.jpg?w=450&h=338&cc=1" alt="Holi" />
+    <p>Holi is a very famous and colorful festival of India, celebrated every year with great enthusiasm. 
+      This festival is also called the festival of colors because on this day people apply colors and powdered colors 
+      (gulal) on each other, share happiness, and even embrace their enemies to spread the message of friendship.
+       Holi symbolizes change, new beginnings, and the victory of good over evil.</p>
+       <p>The tradition of celebrating Holi has been followed since ancient India, connected with many stories from Hindu religion.
+         The most important story is about Holika Dahan, in which Prahlad, a great devotee of Lord Vishnu, was saved by his devotion and 
+         truthfulness from the cruelty of his father, the demon king Hiranyakashipu.
+          Holika, the sister of Hiranyakashipu, had sacrificed herself by sitting in the fire to kill Prahlad, but due to Prahlad's 
+          devotion, he was saved and Holika burned to death. This story gives the message that good always triumphs over evil.</p>
+          <p>Holi is celebrated on the full moon night of the month of Phalguna (usually in February or March). 
+            The festival starts on this day, and the next day people apply colors on each other and celebrate together. 
+            On the day before Holi, Holika Dahan is performed, where people light a big fire to destroy evil, symbolizing the story of Holika and Prahlad.</p>
+            <p>During this festival, people share sweets, play, sing, and dance to celebrate their happiness. 
+              Holi has a special significance in Bihar and all over India, where it is celebrated with great joy and enthusiasm. 
+              On this day, people forget old enmities and extend hands of friendship and love.
+</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/87FYp3YLEBM?si=Wp7cblOsTAe0ZxCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+<div id=" Basant Panchami-7" class="article-section">
+    <h2>Basant Panchami</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkqrv22T3ZqsJlan1Fdb6VsYgMj4UF7I3Bg&s" alt=" Basant Panchami" />
+    <p>Saraswati Puja is one of the most sacred and knowledge-related festivals in India. 
+      This festival is celebrated on the day of Basant Panchami, which falls on the fifth day of the Hindu month of Magh (usually in January or February). 
+      On this day, people worship Goddess Saraswati, who is the goddess of knowledge, music, arts, and wisdom.</p>
+      <p>Goddess Saraswati is depicted wearing white garments, playing the Veena (a musical instrument), and riding on a swan.
+         Her white color symbolizes purity, knowledge, and peace. On this day, students, teachers, and artists pray to Maa Saraswati to bless them with wisdom, intellect, and success.
+</p>
+<p>Main Aspects of Saraswati Puja:
+Preparation for Worship:
+People take a bath in the morning and wear white or yellow clothes. 
+Temples or places of worship are decorated with flowers. Items like books, pens, notebooks, and musical instruments are placed at the feet of the goddess.</p>
+<p>A Special Day for Students:
+Children place their books and pens before Maa Saraswati and seek her blessings. In some places, a ritual called "Haate Khori" or "Vidyarambh Sanskar" is performed, where young children are taught to write for the first time.
+
+Food and Offerings:
+On Saraswati Puja, people prepare delicacies like malpua, kesari bhaat, chana, and halwa. Flowers, sweets, and fruits are offered to the goddess as prasad.
+
+Importance in Bihar:
+In Bihar, Saraswati Puja is celebrated with great enthusiasm. Schools, colleges, and local communities set up pandals (decorated places for worship). Children and youth also participate in competitions, singing, and cultural programs.
+
+Message of Saraswati Puja:
+On this sacred occasion, people honor knowledge, wisdom, and culture. Saraswati Puja teaches us that worshiping knowledge and art brings light and progress into human life.
+
+</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id=" Markar-Sankranti-8" class="article-section">
+    <h2>Makar Sanskar</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDz9kO8mrj5jxnEYD6gptPX-C7pu_DVci5ew&s" alt="Markar-Sankranti" />
+    <p>Makar Sankranti is a famous and religious festival of India, celebrated every year on 14th or 15th January. 
+      This festival marks the entry of the Sun into the zodiac sign Capricorn (Makar) and the beginning of Uttarayan (longer days). 
+      Makar Sankranti falls in the month of Magh and symbolizes a new beginning, the sun's journey towards the north, and positivity.
+       On this day, people eat traditional food like sesame (til), jaggery (gud), and flattened rice with curd (dahi-chura), and also donate to the poor. 
+       Kite flying is a major highlight of this festival, especially in states like Gujarat and Maharashtra. In Bihar, it is also known as Tilkut Sankranti.
+        Taking a bath in the Ganges and offering prayers is considered sacred. The festival teaches us to respect nature, practice good values, and move towards knowledge and enlightenment.
+       On this day, people strengthen relationships and share happiness.</p>
+     <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Janmashtami-9" class="article-section">
+    <h2>Janmashtami</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7r_4een_-LF1T29ZLHIVf9dNpHMPKGKynzwHkIHIJ5zAbzDRVmrJSWOsZq6JWavgiBvI&usqp=CAU" alt="Janmashtami" />
+    <p>Janmashtami is a sacred Hindu festival celebrated as the birthday of Lord Shri Krishna. 
+      This festival is observed on the Ashtami tithi (eighth day) of the Krishna Paksha in the month of Bhadrapada, which usually falls in August or September. 
+      It is believed that Lord Krishna was born at midnight in the city of Mathura. On this occasion, devotees observe fasts, decorate temples and homes beautifully, and organize Krishna Leelas (plays) and devotional songs.
+       Children dress up as Krishna and Radha, and tableaux (jhankis) are displayed. 
+      In many places, the Dahi Handi event is held, where young men form human pyramids to break a pot of curd, symbolizing Krishna’s childhood mischief.
+       On this day, people recite the Bhagavad Gita and remember Lord Krishna's teachings. The festival of Janmashtami inspires us to follow the path of love, compassion, righteousness, and justice. 
+      It evokes a deep sense of devotion and joy among people.</p>
+     <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Hanuman-Jayanti-10" class="article-section">
+    <h2>Hanuman Jayanti</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx2dgg5KA2sfvLDBY4qDp9gGogdkOKpMbw-A&s" alt="Hanuman-Jayanti" />
+    <p>Hanuman Jayanti is a major Hindu festival celebrated as the birthday of Lord Hanuman. This festival is observed on the full moon day (Purnima) of the Hindu month of Chaitra, which usually falls in March or April. Lord Hanuman is considered a symbol of strength, devotion, courage, and wisdom. He was a devoted follower of Lord Rama and played a very important role in the epic Ramayana.
+
+On this day, devotees observe fasts, visit temples, and recite the Hanuman Chalisa. 
+In many places, processions with tableaux of Hanuman are carried out, and devotional songs and hymns are sung. 
+People offer red flowers, vermillion (sindoor), and boondi laddoos to Hanuman, which are considered his favorite.
+
+Hanuman Jayanti gives the message that true devotion, a spirit of service, and determination can help overcome any obstacle. This day teaches us the value of fearlessness, loyalty, and dedication to righteousness.</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+   <div id="Govardhan-11" class="article-section">
+    <h2>Govardhan Puja</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6y1_CbjFLei1JULNzjCF8QdDli_6xd0eb4g&s" alt="Govardhan Puja" />
+    <p>Govardhan Puja is an important Hindu festival celebrated on the next day after Diwali, on the first day (Pratipada) of the bright half of the Kartik month.
+       It is also known as Annakoot. On this day, people remember the story of Lord Krishna lifting the Govardhan mountain.
+
+According to legends, once Lord Indra caused heavy rains in Gokul. 
+To protect the villagers, Lord Krishna lifted the Govardhan mountain on his little finger and gave them shelter.
+ Since then, Govardhan Puja is celebrated to thank nature and Lord Krishna.
+
+On this day, people make a model of the Govardhan mountain using cow dung and worship it. 
+Various dishes are prepared and offered to Lord Krishna as “Annakoot.” People also worship cows and bulls, acknowledging their importance in agriculture and daily life.
+
+This festival symbolizes gratitude towards nature, animals, and food.</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Sonepur-Mela-12" class="article-section">
+    <h2>Sonepur Mela</h2>
+    <img src="https://khabarlahariya.org/wp-content/uploads/2024/11/5c3daef27b7b2-Sonepur-Mela-Sight-Seeing-Tour.jpg" alt="Sonpur Mela" />
+    <p>Sonepur Mela is one of the most famous and ancient fairs of India, held annually in the town of Sonepur in Bihar’s Saran district during Kartik Purnima (October–November). 
+      It takes place at the confluence of the Gandak and Ganga rivers and is also known as the Harihar Kshetra Mela.
+
+This fair is considered very significant from religious, cultural, and commercial perspectives.
+ It is believed that Lord Vishnu (Hari) and Lord Shiva (Har) met at this place, which is why it is called Harihar Kshetra.
+
+The history of Sonepur Mela goes back to the times of the Mahabharata. 
+It is especially known as a cattle fair, where elephants, horses, cows, bulls, and camels were once traded in large numbers. Even today, it features livestock along with local art, culture, handicrafts, and traditional food.
+
+People take a holy dip in the Ganga on Kartik Purnima to earn religious merit and then offer prayers at the famous Hariharnath Temple.
+</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Eid-ul-Fitr-13" class="article-section">
+    <h2>Eid-ul-Fitr</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvO01z7_eC7prfvFpsa81KEdEvpzSCGjfFg&s" alt="Eid-ul-Fitr" />
+    <p>Eid-ul-Fitr is one of the most important and sacred festivals of Islam. 
+      It is celebrated on the first day of the Islamic month of Shawwal, immediately after the month-long fasting of Ramadan—usually falling in April or May.
+
+This festival marks the end of fasting and is a celebration of joy, gratitude, and spiritual accomplishment. 
+During Ramadan, Muslims practice fasting, prayer, and good deeds. Eid is the festive reward for their devotion.
+
+On this day, people take a bath, wear clean clothes, offer the special Eid prayer, and greet each other with “Eid Mubarak.
+” Sweet dishes like "Sevaiyan" (vermicelli pudding) are prepared, which is why it is also called "Sweet Eid."
+
+Before Eid, Muslims give a mandatory charity called “Fitrana” so that the less fortunate can also celebrate the festival. Eid-ul-Fitr spreads the message of brotherhood, compassion, equality, and peace.
+</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+   <div id="Muharram-14" class="article-section">
+    <h2>Muharram</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNO5vn7okdQh2lQpNsNtTx7rs08mJjzaYGA&s" alt="Muharram" />
+    <p>Muharram is the first month of the Islamic calendar and one of the holiest months for Muslims. 
+      It is especially significant for Shia Muslims, as it marks the martyrdom of Imam Hussain, the grandson of Prophet Muhammad, on the 10th day of Muharram, known as Ashura.
+
+Imam Hussain was killed in the Battle of Karbala for standing against injustice and tyranny. Muharram symbolizes the struggle for truth, justice, and sacrifice.
+
+Shia Muslims mourn during this month by wearing black clothes, performing processions (Tazia), and remembering the tragedy of Karbala. 
+Some express grief through self-flagellation, symbolizing the pain Imam Hussain went through.
+
+Sunni Muslims also consider the month sacred and observe fasting, especially on the 9th and 10th of Muharram, but they do not mourn in the same way.
+
+Muharram teaches us to stand up for truth and righteousness, even in the face of great adversity.
+</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Jitiya-15" class="article-section">
+    <h2>Jitiya</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvzaW9X5H903BEtmAgA_bZhaPWR3DFdVNhAg&s" alt="Jitiya" />
+    <p>Jitiya Vrat, also known as Jivitputrika Vrat, is a sacred festival primarily observed in Bihar, Jharkhand, eastern Uttar Pradesh, and Nepal.
+       This fast is observed by mothers for the long life, safety, and prosperity of their sons. It falls on the Ashtami tithi (eighth day) of the Krishna Paksha in the month of Ashwin, usually in September or October. 
+       The festival begins with “Nahay-Khay,” where women bathe and eat pure food. The next day is observed as a strict fast (Nirjala Vrat) without food or water throughout the day and night. On the third day, the fast is broken with rituals. 
+      A popular legend linked to this vrat is of King Jimutvahan, who sacrificed himself to save a serpent child. 
+      Jitiya Vrat symbolizes motherhood, sacrifice, and deep devotion towards one’s children.</p>
+          <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/ENxjEzfYxlY?start=27" 
+        title="Jitiya Festival Video" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+<div id="Buddha-Purnima-16" class="article-section">
+    <h2>Buddha Purnima </h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjd_3OXgKOhwvtU7zuRtzkaULpA5jN7U7FyQ&s" alt="Buddha Purnima " />
+    <p>Buddha Purnima is the most significant and sacred festival of Buddhism, celebrated as the birth anniversary of Lord Gautam Buddha. 
+      It falls on the full moon day of the month of Vaishakh, usually in April or May. 
+      It is believed that on this very day, Buddha was born, attained enlightenment under the Bodhi tree in Bodh Gaya, and also achieved Mahaparinirvana in Kushinagar. 
+      Thus, this day is connected to the three most important events in his life. On Buddha Purnima, followers visit temples, bathe and dress Buddha’s idols, and recite his teachings. 
+      Many people observe fasts and engage in charity. Special events are held in Bodh Gaya (Bihar) and Lumbini (Nepal). 
+      This festival spreads the message of peace, compassion, and non-violence.</p>
+     <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+   <div id="Sama-Chakeva -17" class="article-section">
+    <h2>Sama-Chakeva </h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXz5uDAmRY7PGKidw1c5Glzv7aWZnhETFc2A&s" alt="Sama-Chakeva " />
+    <p>Chhathai or Chhathka (popularly known as Chhathai or Chaakewa) is a traditional folk festival celebrated in the Mithila region of Bihar, which symbolizes the deep bond between brothers and sisters. 
+      This festival takes place in the month of Kartik (October–November), beginning just after the Chhath Puja and continues for about seven days. 
+      During this time, sisters pray for the long life and happiness of their brothers. They prepare and decorate clay figurines of Chaakewa, Sookra, Gaura, and other birds or 
+      symbols, placing them in baskets and playing with them while singing folk songs in fields or courtyards.
+       Traditional songs and cultural events are a key part of this celebration. The festival ends with “Vidaa,” when these toys are ceremonially burnt, and sisters put tilak on their brothers and bless them.
+       Chaakewa highlights the affection, devotion, and cultural richness of the sibling relationship.
+</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Hartalika-Teej-18" class="article-section">
+    <h2>Hartalika Teej</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpohvLllAWfPQYrKWlO_QeE6ftOG0SYcGKA&s" alt="Hartalika Teej" />
+    <p>Teej is a major traditional festival in India, especially celebrated by women with great devotion and enthusiasm.
+       It is mainly observed in the monsoon month of Sawan (July-August), when nature is lush and green. 
+       Teej is celebrated by married women for the long life and prosperity of their husbands. Unmarried girls also observe this fast to get an ideal life partner.
+        On Teej, women observe a fast, wear new clothes and ornaments, apply mehndi (henna), and enjoy swinging on decorated swings.
+         Lord Shiva and Goddess Parvati are worshipped on this day, as it is believed that Goddess Parvati was united with Lord Shiva on this occasion.
+          Teej holds special importance in states like Bihar, Rajasthan, Uttar Pradesh, and parts of central India. 
+      This festival symbolizes feminine power, love, and devotion.</p>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Nag-Panchami-19" class="article-section">
+    <h2>Nag Panchami </h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ZeajpVUKqYPeXK6QApnCHPSXbuix5t_q6g&s" alt="Nag-Panchami " />
+    <p>Nag Panchami is a sacred and traditional festival of India, celebrated every year on the fifth day (Panchami) of the bright half of the Shravan month (usually in July or August).
+       On this day, people worship the Snake God (Nag Devta), who is considered a symbol of protection and power in Hinduism.
+        Women especially observe fasts and worship the images or idols of snakes by offering milk, rice, flowers, turmeric, and grass at their homes, doors, walls, or temples.
+         In rural areas, some people even feed milk to real snakes and release them safely. This festival conveys a message of respect for nature, animals, and especially serpents.
+         It is believed that worshipping snakes on this day removes fears, diseases, and obstacles from life.
+</p>
+     <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Vat-Savitri Puja-20" class="article-section">
+    <!-- <h2>Vat Savitri Puja</h2> -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK1q6yns91uH92LjWnp1T7gTkdHo_a9lFsw&s" alt="Vat Savitri" />
+    <p>Vat Savitri is a significant and sacred festival observed by Hindu married women, celebrated every year on the new moon day (Amavasya) of the Jyeshtha month (May or June).
+       Women observe this fast for the long life, prosperity, and well-being of their husbands. On this day, women worship the Banyan tree (Vat Vriksha), 
+       tie sacred threads around it while taking rounds (parikrama), and listen to the story of Savitri and Satyavan.
+        The legend tells how Savitri, through her devotion and wisdom, brought her husband Satyavan back to life from the god of death, Yama. This fast symbolizes love, faith, and dedication in a marital relationship. 
+        Women observe the fast without water (nirjala) and break it at night with fruits.
+       Vat Savitri festival is considered a symbol of feminine strength, patience, and devotion.</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/2pOWspZTSkc?si=Mh3q_jZfC6LZ0Um6" 
+       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <div id="Sohrai and Karma -21" class="article-section">
+    <h2>Sohrai and Karma </h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvdcHX_J2aSquIIpbmD5YaSctsaQO_4b_2CFU0rGwMUthdGSIA27-Rjwr7cvAFiRXwyQ&usqp=CAU" alt="Sohrai and Karma " />
+    <p>Sohrai and Karma are two highly significant festivals in the tribal cultures of Jharkhand and Bihar. 
+      The Sohrai festival is mainly celebrated to worship cattle and pray for the success of agricultural work. 
+      On this day, traditional art is painted on house walls, and cattle are decorated and honored. 
+      The Karma festival symbolizes nature and brotherhood, where people worship the Karam tree and celebrate through traditional songs and circular dances. Young 
+      men and women perform group dances, representing harmony and cooperation in life.
+Jat-Jatin is a popular folk dance performed mainly by women in the rural areas of Bihar during the month of Sawan (monsoon). 
+This dance expresses the emotional bond, struggles, love, and hardships between husband and wife. Through songs and expressive acting, 
+women present their emotions, delivering a strong cultural and social message. This dance is not only a source of entertainment but also 
+a powerful medium to portray social realities.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yZ9nTWTGEPY?si=zdAdpyXX1SruD1zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <a class="back-button" onclick="goBack()">⬅️ Back</a>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <h3>Bihar Cultural Collection</h3>
+        <p>Celebrating the soul of Bihar through its culture, traditions, and heritage.</p>
+        <p>Made with ❤️ by Samta Kumari & Team</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
